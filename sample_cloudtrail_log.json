@@ -1,0 +1,23 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAJ4567890123ABCDEF",
+        "arn": "arn:aws:iam::123456789012:user/test-user",
+        "accountId": "123456789012",
+        "userName": "test-user"
+      },
+      "eventTime": "2026-07-07T07:45:23Z",
+      "eventSource": "signin.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "us-east-1",
+      "sourceIPAddress": "192.0.2.1",
+      "userAgent": "Mozilla/5.0",
+      "responseElements": {
+        "ConsoleLogin": "Success"
+      }
+    }
+  ]
+}
